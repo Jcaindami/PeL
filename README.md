@@ -54,25 +54,23 @@ The core of this analysis is the **Z-Score**. Here’s how it's applied:
 
 ## 4. Project Structure
 
-/
-|-- input/
-|   |-- base/
-|   |   |-- Interno P&L 01.25.csv
-|   |   |-- ... (historical data files)
-|   |-- Interno P&L 08.25.csv (current month's file)
-|
-|-- output/
-|   |-- Relatorio_Z_Scores_08.2025.pdf (from main_ptbr.py)
-|   |-- Z_Score_Report_08.2025.pdf (from main_en.py)
-|
-|-- src/
-|   |-- main_en.py
-|   |-- main_ptbr.py
-|
-|-- .env
-|-- icon-logotipo.png
-|-- README.md
-|-- requirements.txt
+```markdown
+pnl-analysis/
+├── input/
+│   ├── base/
+│   │   ├── Interno P&L 01.25.csv
+│   │   └── ... (arquivos de dados históricos)
+│   └── Interno P&L 08.25.csv
+├── output/
+│   ├── Relatorio_Z_Scores_08.2025.pdf
+│   └── Z_Score_Report_08.2025.pdf
+├── src/
+│   ├── main_en.py
+│   └── main_ptbr.py
+├── .env
+├── icon-logotipo.png
+├── README.md
+└── requirements.txt
 
 
 * **`/input`**: Contains the CSV file for the current month to be analyzed.
