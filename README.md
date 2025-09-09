@@ -55,7 +55,7 @@ The core of this analysis is the **Z-Score**. Here’s how it's applied:
 ## 4. Project Structure
 
 ```markdown
-pnl-analysis/
+pel-analysis/
 ├── input/
 │   ├── base/
 │   │   ├── Interno P&L 01.25.csv
