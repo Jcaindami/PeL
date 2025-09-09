@@ -37,7 +37,7 @@ The core of this analysis is the **Z-Score**. Here’s how it's applied:
 2.  **Normalization**: To compare stores of different sizes, absolute values (e.g., in BRL or USD) are not used directly. Instead, each P&L account is divided by the **Net Revenue** of its respective store. This converts every value into a proportion (e.g., "Cost of Goods Sold as a percentage of Net Revenue"). This step is crucial for a fair comparison.
 3.  **Z-Score Calculation**: For each normalized P&L account, the script calculates the average and standard deviation across all stores. The Z-Score for each store's account is then calculated using the formula:
 
-    $$ Z = \frac{(X - \mu)}{\sigma} $$
+    Z = \frac{(X - \mu)}{\sigma} $$
 
     Where:
     - $X$ is the store's normalized value for that account.
